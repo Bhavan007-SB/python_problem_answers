@@ -1,4 +1,4 @@
-Year = int(input())   #get year from user
+Year = int(input())   #get integer input(year) from user
 
 if(((Year % 400 == 0) or
     (Year % 100 !=0)) and    #Formula to find leap year
